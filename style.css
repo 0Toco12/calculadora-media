@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.num {
+    padding: 10px 0;
+}
+
+.media {
+    color: darkblue;
+    height: 50px;
+    background: lightgrey;
+    padding: 10px 0;
+}
+
+.lw0 {
+    color: darkcyan;
+    background: red;
+}
+
+.lw50 {
+    color: red;
+    background: green;
+}
+
+.lw75 {
+    color: yellow;
+    background: blue;
+}
+
+.lw90 {
+    color: white;
+    background: purple;
+}
+
+.start {
+    color: black;
+    background: white;
+}
+
+.escuro {
+    color: white;
+    background: black;
+}
